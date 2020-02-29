@@ -5,7 +5,7 @@ class TitleForm(ModelForm):
 	class Meta:
 		model = TodoList
 		fields = '__all__'
-
+		
 class TaskForm(ModelForm):
 	class Meta:
 		model = Task
