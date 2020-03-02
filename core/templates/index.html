@@ -37,10 +37,13 @@
             <a class="nav-link" href="{% url 'adcionar' %}">Criar Tarefa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Criar Titulo</a>
+            <a class="nav-link" href="{% url 'user_change_password' %}">Alterar Senha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Lista de Tarefas</a>
+            <a class="nav-link" href="{% url 'lista_title' %}">Lista de Tarefas</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="{% url 'logout_user' %}">Sair do Sistema</a>
           </li>
         </ul>
       </div>
@@ -51,7 +54,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-       
+        <br>
+       <h1> Teste Back-End BiomeHub</h1>
       </div>
     </div>
   </div>
