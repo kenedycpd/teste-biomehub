@@ -1,0 +1,5 @@
+.env
+.biomehub
+*.sqlite3
+*pyc
+__pycache__
